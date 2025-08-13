@@ -6,7 +6,6 @@
    macOs uses ~/Library/Application Support/lazygit/ - the install
    doesn't work properly.
 
-```
 ### My tweaks 
 
 Configure the pager using [delta](https://github.com/dandavison/delta).
