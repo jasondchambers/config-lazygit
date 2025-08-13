@@ -18,10 +18,9 @@ point_lazygit_to_this_config() {
     if [ -d ~/.config/lazygit ]; then
       echo "lazygit config already exists - moving it to backup"
       mv ~/.config/lazygit{,.bak}
-    else
-      echo "Linking lazygit to this config"
-      ln -s ~/repos/config-lazygit ~/.config/lazygit
     fi
+    echo "Linking lazygit to this config"
+    ln -s ~/repos/config-lazygit ~/.config/lazygit
   fi
 }
 
